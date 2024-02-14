@@ -1,6 +1,98 @@
+*, ::after, ::before{
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
-	font-family: sans-serif;
+	font-family: "Poppins", sans-serif;
 	background-color: #333;
-	/* background-image: url(../assets/images/sleep-cat.jpeg); */
+	background-image: url(../assets/images/background.jpg);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container{
+	position: relative;
+	width: 90%;
+	max-width: 400px;
+	height: 500px;
+	background-color: grey;
+	border-radius: 16px;
+	padding: 20px;
+	color: white;
+	margin: 20px 0;
+}
+
+.search-box{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: orange;
+	display: flex;
+	align-items: center;
+}
+
+.input-location{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: 2px solid #ffffff4d;
+	border-radius: 10px;
+	font-size: 22px;
+	color: white;
+	font-weight: 500;
+	padding: 0 48px;
+}
+
+.input-location::placeholder{
+	color: white;
+}
+
+.location{
+	height: 60%;
+	padding: 0 5px;
+}
+
+.button-search{
+	position: absolute;
+	right: 0;
+	width: 40px;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 0 5px;
+	cursor: pointer;
+
+}.weather{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.weather-img{
+	width: 60%;
+}
+
+.temperature{
+	font-size: 64px;
+	margin-bottom: 0;
+	margin-top: 10px;
+	font-weight: 700;
+}
+
+.grades{
+	position: absolute;
+	font-size: 24px;
+}
+
+.description{
+	margin: 0;
+	font-size: 22px;
 }

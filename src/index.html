@@ -2,16 +2,35 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/assets/images/vite.svg" />
+		<!-- <link rel="icon" type="image/svg+xml" href="/assets/images/vite.svg" /> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/base/normalize.css" />
 		<link rel="stylesheet" href="css/base/base.css" />
 		<link rel="stylesheet" href="css/styles.css" />
-		<title>Vite App</title>
+		<title>Weather</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1>WEB WITH VITE</h1>
-		<!-- <img src="./assets/images/cute-cat.webp" alt="" /> -->
+
+		<div class="container">
+			<div class="search-box">
+				<img class="location" src="assets/images/map.svg" alt="">
+				<input class="input-location" type="text" placeholder="Enter Your Location">
+				<button class="button-search"><img src="assets/images/search.svg" alt=""></button>
+			</div>
+
+			<div class="weather-box">
+				<div class="weather">
+					<img class="weather-img" src="assets/images/cloud.png" alt="">
+					<p class="temperature">16 <span class="grades">°C</span></p>
+					<p class="description">Broken Clouds</p>
+				</div>
+			</div>
+		</div>
+		
 		<script type="module" src="./js/index.js"></script>
 	</body>
 </html>
