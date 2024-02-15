@@ -181,6 +181,10 @@ body {
 	flex-direction: column;
 }
 
-.hidden{
+.weather-box, .error{
 	display: none;
+}
+
+.active{
+	display: block;
 }

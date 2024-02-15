@@ -39,8 +39,8 @@ const getWeatherData = () => {
 		.then(response => response.json())
 		.then(data => {
 			console.log(data);
-            errorElement.classList.add('hidden');
-            weatherBoxElement.classList.remove('hidden');
+            errorElement.classList.remove('active');
+            weatherBoxElement.classList.add('active');
 
 			const weatherMain = data.weather[0].main;
 			const weatherImageSrc = weatherImages[weatherMain];
@@ -62,8 +62,8 @@ const getWeatherData = () => {
 		})
 		.catch(error => {
 			console.error('Error fetching weather data:', error);
-            errorElement.classList.remove('hidden');
-            weatherBoxElement.classList.add('hidden');
+            errorElement.classList.add('active');
+            weatherBoxElement.classList.remove('active');
 		});
 };
 
