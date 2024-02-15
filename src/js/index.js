@@ -1,3 +1,1 @@
-import { sayHello } from './demo';
-
-sayHello();
+const APIKey = 'f53b18e8611267b98faa272a1039e762'
