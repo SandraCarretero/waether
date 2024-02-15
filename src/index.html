@@ -15,208 +15,65 @@
 	</head>
 	<body>
 
-		<div class="container">
+		<div id="container" class="container">
 			<div class="search-box">
 				<img class="location" src="assets/images/map.svg" alt="">
-				<input class="input-location" type="text" placeholder="Enter Your Location">
-				<button class="button-search"><img src="assets/images/search.svg" alt=""></button>
+				<input id="input-location" class="input-location" type="text" placeholder="Enter Your Location">
+				<button id="button-search" class="button-search"><img src="assets/images/search.svg" alt=""></button>
 			</div>
 
-			<div class="weather-box">
+			<div id="weather-box" class="weather-box hidden">
 				<div class="weather row">
-					<img class="weather-img" src="assets/images/cloud.png" alt="">
+					<img id="weather-img" class="weather-img" src="assets/images/clear.svg" alt="">
 					<div class="weather-text">
-						<p class="temperature">16 <span class="grades">°C</span></p>
-						<p class="description">Broken Clouds</p>
+						<p class="temperature"> <span id="temperature-number">22</span> <span class="grades">°C</span></p>
+						<p id="description" class="description">Soleado</p>
 					</div>
 				</div>
 				<div class="details row">
 					<div class="details-box">
+						<img class="details-img" src="assets/images/precipitation.svg" alt="">
+						<div class="details-text">
+							<span id="precipitation">0%</span>
+							<span>Precipitation</span>
+						</div>
+					</div>
+					<div class="details-box">
 						<img class="details-img" src="assets/images/drop.svg" alt="">
 						<div class="details-text">
-							<span>0%</span>
-							<span>Humidity</span>
+							<span id="humidity">0%</span>
+							<span>Humedad</span>
 						</div>
 					</div>
 					<div class="details-box">
 						<img class="details-img" src="assets/images/windspeed.svg" alt="">
 						<div class="details-text">
-							<span>0Km/h</span>
-							<span>Wind Speed</span>
+							<span id="wind">0Km/h</span>
+							<span>Viento</span>
 						</div>
 					</div>
 				</div>
-				<div class="timer-container">
-					<div class="timer">
-						<div class="hour">
-							<div class="hour-content">
-								<span>0 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>1 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>2 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>3 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>4 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>5 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>6 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>7 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>8 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>9 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>10 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>11 AM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>12 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>1 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>2 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>3 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>4 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>5 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>6 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>7 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>8 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>9 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>10 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
-						<div class="hour">
-							<div class="hour-content">
-								<span>11 PM</span>
-								<img class="weather-img" src="assets/images/cloud.png" alt="">
-								<span class="temperature-small">0<span class="small">°C</span></span>
-							</div>
-						</div>
+				<div class="value-container">
+					<div id="max" class="value">
+						<img src="assets/images/temperature-max.svg" alt="" width="60px">
+						<p class="max-temperature column">
+							<span>Máxima</span><span id="max-temperature">26°C</span>
+						</p>
 					</div>
+					<div id="min" class="value">
+						<img src="assets/images/temperature-min.svg" alt="" width="60px">
+						<p class="min-temperature column">
+							<span>Mínima</span>
+							<span id="min-temperature">20°C</span>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="error" class="error hidden">
+				<div class="box">
+					<img src="assets/images/404.png" alt="" width="380px">
+					<p>Oops! Location not found!</p>
 				</div>
 			</div>
 		</div>
