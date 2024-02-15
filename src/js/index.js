@@ -1,6 +1,12 @@
+import CLEAR from '../assets/images/clear.svg';
+import CLOUDS from '../assets/images/clouds.svg';
+import MIST from '../assets/images/mist.svg';
+import RAIN from '../assets/images/rain.svg';
+import SNOW from '../assets/images/snow.svg';
+import THUNDERSTORM from '../assets/images/thunderstorm.svg';
+
 const apiKey = 'f53b18e8611267b98faa272a1039e762';
 
-const containerElement = document.getElementById('container')
 const searchButtonElement = document.getElementById('button-search');
 const weatherBoxElement = document.getElementById('weather-box');
 const locationInputElement = document.getElementById('input-location');
@@ -15,22 +21,15 @@ const minTemperatureElement = document.getElementById('min-temperature');
 const errorElement = document.getElementById('error')
 
 const weatherImages = {
-	Clear: './assets/images/clear.svg',
-	Clouds: './assets/images/clouds.svg',
-	Drizzle: './assets/images/rain.svg',
-	Mist: './assets/images/mist.svg',
-	Rain: './assets/images/rain.svg',
-	Snow: './assets/images/snow.svg',
-    Thunderstorm: './assets/images/thundertorm.svg',
-	Haze: './assets/images/mist.svg'
+	Clear: CLEAR,
+	Clouds: CLOUDS,
+	Drizzle: RAIN,
+	Mist: MIST,
+	Rain: RAIN,
+	Snow: SNOW,
+    Thunderstorm: THUNDERSTORM,
+	Haze: MIST
 };
-
-const toggleContainerHeight = () => {
-    containerElement.style.height = 'fit-content'; // Cambia la altura a fit-content
-    setTimeout(() => {
-      weatherBoxElement.classList.remove('hidden');
-    }, 2000); // Espera 2 segundos antes de mostrar el contenido
-  };
 
 const getWeatherData = () => {
 	const location = locationInputElement.value;
