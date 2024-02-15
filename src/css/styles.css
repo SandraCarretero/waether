@@ -124,6 +124,7 @@ body {
 	background-color: #00000033;
 	border-radius: 20px;
 	justify-content: space-evenly;
+    padding: 5px
 }
 
 .details-box{
