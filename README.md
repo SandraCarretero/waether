@@ -1,19 +1,20 @@
-# TIC TAC TOE
-
+# WEATHER
 ![Imagen del proyecto](https://github.com/SandraCarretero/weather/blob/main/src/assets/images/screencapture-weather.png)
 
 ## Ejemplo en vivo
 
   - [URL-de-github-pages-de-este-proyecto](https://sandracarretero.github.io/weather/)
+  - [URL-de-la-api](URL-de-la-api)
 
 ## Descripción 📑
 
-Este proyecto consiste en una recreación del juego de Tres en Raya, conocido como Tic Tac Toe, desarrollado mediante HTML, CSS y JavaScript. En esta versión, los jugadores se enfrentan al pc, desafiándose mutuamente para colocar sus fichas en un tablero de 3x3.
+
+En este proyecto, he desarrollado una aplicación que utiliza una API para proporcionar información meteorológica sobre diferentes países. Los usuarios pueden buscar un país específico y obtener datos como la temperatura actual, máxima y mínima, precipitación, velocidad del viento y humedad. Esta experiencia me ha permitido mejorar mis habilidades en el manejo de APIs y en la creación de aplicaciones web centradas en la utilidad y la información.
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
- A través de este proyecto, he fortalecido mis habilidades en la integración de HTML, CSS y JavaScript para crear una aplicación interactiva de Tres en Raya. He mejorado en la lógica de programación, diseño de interfaces y optimización del rendimiento del juego. Esta experiencia ha enriquecido mi conjunto de habilidades en el desarrollo web y la ingeniería de software.
- 
+Este proyecto me ha enseñado a integrar APIs en aplicaciones web, mejorando mi capacidad para obtener y procesar datos externos. He fortalecido mis habilidades en el manejo de información en tiempo real y en la creación de aplicaciones centradas en la utilidad.
+
 ## Tecnologías 🛠
 
 <!-- Iconos sacados de: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
