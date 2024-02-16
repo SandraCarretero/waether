@@ -4,7 +4,7 @@
 ## Ejemplo en vivo
 
   - [URL-de-github-pages-de-este-proyecto](https://sandracarretero.github.io/weather/)
-  - [URL-de-la-api](URL-de-la-api)
+  - [URL-de-la-api](https://openweathermap.org/)
 
 ## Descripción 📑
 
