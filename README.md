@@ -3,8 +3,8 @@
 
 ## Ejemplo en vivo
 
-  - [URL-de-github-pages-de-este-proyecto](https://sandracarretero.github.io/weather/)
-  - [URL-de-la-api](https://openweathermap.org/)
+  - [https://sandracarretero.github.io/weather/](https://sandracarretero.github.io/weather/)
+  - [https://openweathermap.org/](https://openweathermap.org/)
 
 ## Descripción 📑
 
