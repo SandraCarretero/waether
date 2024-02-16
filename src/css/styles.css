@@ -21,7 +21,6 @@ body {
 	position: relative;
 	width: 90%;
 	max-width: 450px;
-	/* height: fit-content; */
 	height: auto;
 	background-color: #ffffff1a;
 	backdrop-filter: blur(30px);
